@@ -33,8 +33,8 @@ return {
             bttiCredits = {
                 name = " ",
                 text = {
-                    "{C:balinsanity}Actually Insanity presents...",
-                    "BALINSANITY",
+                    "hatoving presents...",
+                    "{C:balinsanity}BALINSANITY",
                     " ",
                     "{C:pink}hatoving",
                     "Creator / Programmer / Artist",
