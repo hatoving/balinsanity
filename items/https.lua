@@ -12,7 +12,7 @@ G.BTTI.HTTPS.YOUTUBE_CONSTS = {
     NUMBER_GO_UP = "iXZX_HAmbTU",
     HATOVING = "hatoving",
     JUICIMATED = "juicimated",
-    BLUEBEN8 = "bennoh01"
+    BLUEBEN8 = "blueben8"
 }
 G.BTTI.HTTPS.URLS = {
     YOUTUBE_DATA = "https://raw.githubusercontent.com/hatoving/btti-https/refs/heads/main/youtube_data.json"
