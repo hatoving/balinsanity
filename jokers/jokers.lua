@@ -1411,7 +1411,7 @@ function G.FUNCS.joker_can_subscribe(e)
 end
 function G.FUNCS.joker_subscribe(e)
     local card = e.config.ref_table
-    love.system.openURL("https://www.youtube.com/@Bennoh01")
+    love.system.openURL("https://www.youtube.com/@BlueBen8")
     love.system.openURL("https://www.youtube.com/hatoving")
     love.system.openURL("https://www.youtube.com/juicimated")
 
