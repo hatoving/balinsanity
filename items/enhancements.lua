@@ -129,7 +129,7 @@ SMODS.Enhancement {
     no_suit = true,
     always_scores = true,
     loc_vars = function(self, info_queue, card)
-        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "DEETS", "BlueBen8", "BlueBen8" } }
+        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "DEETS", "hatoving", "BlueBen8" } }
         return { vars = { card.ability.bonus } }
     end,
 }
