@@ -19,7 +19,7 @@ SMODS.Enhancement {
     pos = { x = 0, y = 0 },
     config = { },
     loc_vars = function(self, info_queue, card)
-        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "You're My Favorite Person", "Juicimated" } }
+        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "You're My Favorite Person", "Juicimated", "Juicimated" } }
         return { vars = { } }
     end,
     calculate = function(self, card, context)
@@ -117,8 +117,8 @@ SMODS.Enhancement {
     loc_txt = {
         name = 'Horse Card',
         text = {
-            "Has no Suit or Rank",
-            "{C:chips}+#1#{} Chips",
+            "{C:chips}+#1#{} chips",
+            "no rank or suit",
         }
     },
     atlas = 'horseCard',
@@ -129,7 +129,7 @@ SMODS.Enhancement {
     no_suit = true,
     always_scores = true,
     loc_vars = function(self, info_queue, card)
-        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "DEETS", "BlueBen8" } }
+        info_queue[#info_queue + 1] = { key = 'bttiFromBy', set = 'Other', vars = { "DEETS", "BlueBen8", "BlueBen8" } }
         return { vars = { card.ability.bonus } }
     end,
 }
